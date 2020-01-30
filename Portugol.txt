@@ -1,0 +1,19 @@
+Algoritimo AtravessarRua
+	Olhar para a direita
+	Olhar para a esquerda
+	Se estiver vindo carro
+		Não Atravesse
+	Senão
+		Atravesse
+	Fim-Se
+Fim-Algoritimo
+
+Algoritimo AtravessarRua
+	Olhar para a esquerda
+	Olhar para a direita
+	Se não estiver vindo carro
+		Atravesse
+	Senão
+		Não Atravesse
+	Fim-Se
+Fim-Algoritimo
