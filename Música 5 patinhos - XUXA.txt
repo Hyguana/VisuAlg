@@ -1,0 +1,52 @@
+algoritmo "Música 5 patinhos - XUXA"
+// Função : Letra música 5 patinhos - Xuxa
+// Autor : Daniel Silva de Assunção
+// Data : 06/07/2018
+
+
+var
+patinhos,cont,qua:inteiro
+inicio
+// Seção de Comandos
+patinhos:=5
+para cont de patinhos ate 1 passo -1 faca
+   se cont>1 entao
+      escreval (cont," patinhos")
+      escreval ("foram passear,")
+   senao
+      escreval (cont," patinho")
+      escreval ("foi passear,")
+   fimse
+   escreval ("além das montanhas")
+   escreval ("para brincar!")
+   escreval ("A mamãe gritou:")
+   para qua de 1 ate 4 faca
+      escreva ("Quá  ")
+   fimpara
+   escreval("")
+   se cont>2 entao
+      escreval("Mas só ",cont-1," patinhos")
+      escreval("voltaram de lá.")
+   senao
+      se cont>1 entao
+         escreval("Mas só ",cont-1," patinho")
+         escreval("voltou de lá.")
+      senao
+         escreval("Mas nenhum patinho")
+         escreval("voltou de lá.")
+      fimse
+   fimse
+   escreval("")
+fimpara
+escreval ("A mamãe patinha")
+escreval ("foi procurar,")
+escreval ("além das montanhas,")
+escreval ("na beira do mar!")
+escreval ("A mamãe gritou:")
+para qua de 1 ate 4 faca
+   escreva ("Quá  ")
+fimpara
+escreval("")
+escreval ("E os ",patinhos," patinhos")
+escreval ("voltaram de lá.")
+fimalgoritmo
